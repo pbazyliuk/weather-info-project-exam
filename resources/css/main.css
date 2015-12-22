@@ -1,0 +1,574 @@
+/* ==============================
+==========GENERAL STYLES=========
+================================*/
+
+* {
+	margin:0;
+	padding: 0;
+	box-sizing:border-box;  
+}
+
+html {
+	color: white;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
+	height: 100%;
+	
+}
+
+.row {
+	max-width: 1170px;
+	width: 100%;
+	/* min-width: 420px; */
+	margin: 0 auto; 
+}
+
+
+/* ==============================
+==========HEADER STYLES=========
+================================*/
+
+.background_container {
+	background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(img/background2.jpg);
+	height: 100vh;
+	max-height: 100%;
+	min-height: 768px;
+	max-width: 1680px;
+	min-width: 1366px;
+	background: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.logo {
+	height: 105px;
+	width: auto;
+	float: left;
+	margin-top: 93px;
+	margin-bottom: 6.1%;
+}
+
+.page_nav {
+	float: right;
+	list-style: none;
+	margin-top: 131px;
+
+}
+
+.page_nav li {
+	display: inline-block;
+	margin-left: 57px;
+}
+
+
+.page_nav li a:link,
+.page_nav li a:visited {
+	padding: 10px 0;
+	color: white;
+	text-decoration: none;
+	font-size:137.5%;
+	border-bottom: 2px solid transparent;
+}
+
+.page_nav li a:hover,
+.page_nav li a:active {
+	border-bottom: 2px solid rgb(60,164,198);
+	transition: border-bottom 0.2s;
+}
+
+
+/* ==============================
+==========MAIN STYLES============
+================================*/
+
+h1 {
+	font-size: 337.5%;
+	font-weight: 300;
+	clear: both;
+}
+h1 span {
+	display: block;
+}
+
+
+.clearboth {
+	clear:both;
+}
+
+
+
+.searchfiled_search .btn,
+.btn:link,
+.btn:visited {
+	
+	display: inline-block;
+	padding: 0px 20px;
+	font-weight: 300;
+	text-decoration: none;
+	border-radius: 10px;
+	background-color: transparent;
+	height: 48px;
+	border: 1px solid white;
+	color: white;
+}
+
+.btn-sm,
+.btn-sm:link,
+.btn-sm:visited  {
+
+	display: inline-block;
+	padding: 0px 20px;
+	font-weight: 300;
+	text-decoration: none;
+	border-radius: 10px;
+	background-color: transparent;
+	height: 38px;
+	border: 1px solid grey;
+	color: grey;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	width: auto;
+	float: left;
+
+}
+
+.btn-sm:hover,
+.btn-sm:active {
+	color: white;
+	border: 1px solid white;
+}
+
+.icon-big {
+	font-size: 150%;
+	float: left;
+}
+
+.btn-sm span {
+	margin-left: 10px;
+	margin-top: 6px;
+	display: inline-block;
+}
+
+.input-search {
+	width: 480px;
+	float: left;
+	/* margin-right: 40px; */
+	height: 48px;
+	border-radius: 10px;
+
+}
+
+#inputCityName[placeholder] {
+	font-size: 100%;
+}
+
+.searchfiled_search .btn-color {
+	background-color: rgb(60,164,198);
+	width: 196px;
+	float: left;
+	display: block;
+	margin-left: 35px;
+
+}
+
+.btn-color:hover,
+.btn-color:active {
+	background-color: transparent;
+}
+
+.btn:active,
+.btn:hover {
+
+}
+	.search:link,
+	.search:visited {
+		width
+	}
+
+
+/* ==============================
+========About.html STYLES========
+================================*/
+
+h2 {
+	font-size: 300%;
+	font-weight: 300;
+	clear: both;
+}
+.line {
+	width: 202px;
+	border-bottom: 1px solid white;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.about_text {
+	font-size: 137.5%;
+	line-height: 170%;
+	letter-spacing: 0.3px;
+	font-variant: 
+}
+
+/* ==============================
+========Contacts.html STYLES========
+================================*/
+
+
+input[type=text],input[type=submit],
+input[type=email],#mycomments,
+button, input[type=list] {
+		border: 1px solid white;
+		border-radius: 5px;
+		padding: 5px;
+		margin: 0;
+		margin-bottom: 20px;
+		font-size: 95%;
+}
+.error {
+	color: yellow;
+	font-size: 70%;
+	margin-left:5px; 
+}
+
+#formmessage {
+	color: yellow;
+	font-size: 120%;
+	
+	padding:10px; 
+	border: 1px solid white;
+	border-radius: 10px;
+	display: inline-block;
+	margin-bottom: 10px; 
+}
+legend {
+	margin-left: 7px;
+}
+.general_info,
+.comments {
+	display: inline-block;
+	float: left;
+}
+
+#myform {
+	font: normal 1.25em/1.3em "Open Sans", Helvetica, Geneva, sans-serif;
+	font-weight: 300;
+	border-radius: 10px;
+	border: 1px solid white; 
+}
+
+/* #myform .general_info,
+.comments {
+	border:1px solid rgba(255,255,255,.3);
+	border-radius: 5px; 
+	background-color: rgba(255,255,255,.1);
+	margin-left:30px;
+	margin-top:20px; 
+	margin-bottom: 20px; 
+	width: 397px;
+	float: left;
+} */
+
+#myform .general_info,
+.comments {
+	border:1px solid rgba(255,255,255,.5);
+	border-radius: 5px; 
+	background-color: transparent;
+	margin-left:3.5%;
+	/* margin-right:30px; */
+	margin-top:20px; 
+	margin-bottom: 20px; 
+	width: 397px;
+	float: left;
+}
+
+.comments {
+	margin-left: 15px;
+	width: 45.5%;
+	/* margin-right: 3.5%; */
+} 
+
+
+#myform ol {
+	margin: 10px;
+	padding: 0px;
+}
+
+
+#myform ol li {
+	list-style: none;
+	padding: 10px;
+}
+
+#myform ol li ol li {
+	display: inline;
+	padding: 0px;
+}
+
+#myform ol li input[type="checkbox"] {
+	width: auto;
+	display: inline;
+}
+
+#myform ol li ol li input {
+	display: inline;
+	width: auto;
+	font-size: 110%;
+}
+
+#myform ol li label, .grouphead {
+	font-weight: 300;
+	color: rgba(255,255,255,1);
+	display: block;
+	font-size:100%;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	
+}
+
+#myform ol li ol li label {
+	font-weight: 300;
+	font-size: 85%;
+	display: inline;
+	cursor: pointer;
+	margin-right: 20px;
+	
+}
+
+#myform ol li input, #myform textarea {
+	display: block;
+	width: 96%;
+	border: 1px solid white;
+	padding: 5px;
+	background: transparent;
+	margin: 0 auto;	
+	outline: none;
+	border-radius: 5px;
+}
+
+#myform input[required] {
+	border-color: white;
+}
+
+#myform .reference {
+	border: 1px solid white;
+}
+
+#myform textarea {
+	height: 83px;
+	margin-bottom: -9px;
+}
+
+#myform button {
+	width: 100px;
+	width: 30%;
+	min-width: 100px;
+	float: left;
+	margin-left: 27px;
+	font-size: 80%;
+	border: 1px solid white;
+	background: rgb(60,164,198);
+	color:white;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+#myform button:hover {
+	background: transparent;
+}
+
+#myform span {
+	color: yellow;
+}
+
+#myhint {
+	font-size: 90%;
+	font-weight: 500;
+	color: white;
+}
+/* ==============================
+========Search.html STYLES========
+================================*/
+main .clear {
+	clear: both;
+	margin-bottom: 15px;
+	
+}
+.searchfiled_search {
+	margin-bottom: 28px;
+
+}
+ .weather_form {
+ 	border:1px solid white;
+ 	height: 394px;
+ 	max-height: 100%;
+ 	border-radius: 10px;
+ 	
+ }
+ .weather_form tr {
+ 	text-align: center;
+ 	
+ }
+
+  /* .weather_form tr td,
+  .weather_form tr th  {
+  	padding-left: 20px; 
+  } */
+   
+#weatherTable {
+	border:1px solid rgba(255,255,255,.8); 
+	/* width: 97%;
+	min-width: 1130px;  */
+	height: 80%;
+	margin: 0 auto;
+	
+	
+}
+
+.widthtable {
+	width:1130px;
+}
+
+ #weatherTable img{
+	width: 60px;
+	height: 40px;
+	
+ }
+
+.unvisible {
+	display: none;
+}
+
+.bordercontainer {
+	border-radius: 10px;
+	border:1px solid white;
+}
+
+#visible {
+	clear: both;
+	
+
+}
+
+#visible p {
+	font-size: 110%;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	float: left;
+}
+
+.paragalign {
+	margin-left: 23px;
+}
+
+#containerid h2 {
+	margin-top: 20px;
+	font-size: 110%;
+	font-weight: 400;
+}
+#chart {
+	
+	padding: 0;
+	display: inline-block;
+	float: left;
+	margin-right: 35px;
+	margin-top: 15px;
+}
+
+.visiblebutton
+	{
+	visibility: hidden;
+
+
+}
+.visibcontainer
+ {
+	visibility: visible;
+}
+#btnGet {
+	
+	margin-left: 25px;
+}
+
+#containerid {
+	float:right;
+	margin-right: 20px;
+	display: inline;
+}
+
+
+.displayinline {
+	width: 500px;
+	margin:0px;
+	
+	line-height: 10px;
+	/* height: 200px; */
+		/* display: table-row;
+	clear: left;
+	padding-left:35px;  */
+}
+
+
+.tick text {
+	fill: white;
+}
+
+
+
+/* .displayinline td {
+	display: block;
+	padding-top: 20px;
+	padding-left: 30px;
+	width: 230px;
+	
+	
+	font-size: 150%;
+	line-height: 20px;
+} */
+/* ==============================
+==========FOOTER STYLES=========
+================================*/
+
+.footer {
+	height: 112px;
+	margin-top: -112px;
+	background-color: rgba(41,41,41,0.7);
+	max-width: 1680px;
+	min-width: 1366px;
+}
+
+.social_network {
+	float: right;
+	list-style: none;
+	margin-top: 18px;
+}
+
+.social_network li {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.social_network li a {
+	font-size: 180%;
+	color: grey;
+}
+
+	.tw:hover {
+		color: rgb(64,153,255);
+	}
+
+	.f:hover {
+		color: rgb(59,89,152);
+	}
+	.g:hover {
+		color: rgb(211,72,54);
+	}
+
+.copyright {
+	clear: both;
+	text-align: center;
+	font-size: 90%;
+	color: grey;
+}
