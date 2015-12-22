@@ -1,1 +1,1 @@
-# weather-info-project-exam
+http://pbazyliuk.github.io/weather-info-project-exam.
